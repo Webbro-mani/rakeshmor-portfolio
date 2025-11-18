@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakesh - GIS Specialist & Research Scholar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="certificates.html" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="fixed w-full top-0 z-50">
+    <div class="container mx-auto px-6 py-6">
+      <div class="flex justify-between items-center">
+        <h1 class="text-3xl font-bold gradient-text">Rakesh</h1>
+        <button id="menuBtn" class="md:hidden text-purple-400">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+        <ul id="navMenu" class="hidden md:flex space-x-8">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#Qualification" class="nav-link">Qualification</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+      <ul id="mobileMenu" class="hidden md:hidden mt-4 space-y-3">
+        <li><a href="#home" class="block hover:text-purple-400">Home</a></li>
+        <li><a href="#about" class="block hover:text-purple-400">About</a></li>
+        <li><a href="#Qualification" class="nav-link">Qualification</a></li>
+        <li><a href="#skills" class="block hover:text-purple-400">Skills</a></li>
+        <li><a href="#experience" class="block hover:text-purple-400">Experience</a></li>
+        <li><a href="#research" class="block hover:text-purple-400">Research</a></li>
+        <li><a href="#contact" class="block hover:text-purple-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-4">
+    <div class="container mx-auto text-center">
+      <div class="animate-float mb-12">
+        <div class="profile-container">
+          <img src="rakesh-removebg-preview.png" alt="Rakesh"
+            class="w-full h-full object-cover rounded-full">
+        </div>
+      </div>
+      <h1 class="hero-title font-bold mb-6 animate-fade-in-up">
+        Hi, I'm <span class="gradient-text">Rakesh</span>
+      </h1>
+      <p class="text-2xl md:text-3xl text-gray-400 mb-12 animate-fade-in-up font-light" style="animation-delay: 0.2s">
+        GIS Specialist • Research Scholar • Geospatial Analyst
+      </p>
+      <div class="flex justify-center gap-4 animate-fade-in-up flex-wrap" style="animation-delay: 0.4s">
+        <a href="#contact" class="btn-primary">
+          Get In Touch
+        </a>
+        <a href="#about" class="btn-secondary">
+          Learn More
+        </a>
+        <a href="Rakesh Resume.pdf" class="btn-primary" onclick="downloadResume()">
+          Download My Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+        About <span class="gradient-text">Me</span>
+      </h2>
+      <div class="glass-card p-12">
+        <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+          Junior Project Assistant and Research Scholar with expertise in GIS, Remote Sensing, Raster & Vector data
+          analysis, and field-based research. Currently pursuing PhD in Geography while working at HARSAC (Haryana Space
+          Applications Centre).
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div class="flex items-start space-x-4">
+            <div class="icon-container">
+              <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="font-semibold text-xl mb-1">Education</h3>
+              <p class="text-gray-400">PhD Pursuing in Geography</p>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <div class="icon-container">
+              <i class="fas fa-briefcase text-purple-400 text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="font-semibold text-xl mb-1">Experience</h3>
+              <p class="text-gray-400">HARSAC (Since Feb 2022)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Qualification Section -->
+  <section id="Qualification" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+       <span class="gradient-text">Qualification</span>
+      </h2>
+      <div class="glass-card p-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 46px; height: 46px;">
+            <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-white">PhD Geography (Pursuing) </h3>
+            <p class="text-gray-400 mt-2">MCBU Chhatarpur MP</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 46px; height: 46px;">
+            <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-white">M.Sc Geography</h3>
+            <p class="text-gray-400 mt-2">CRSU Jind 2022</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 46px; height: 46px;">
+            <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-white">B.A</h3>
+            <p class="text-gray-400 mt-2">Kurukshetra University (2019)</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 46px; height: 46px;">
+            <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-white">PG Diploma in Geoinformatics</h3>
+            <p class="text-gray-400 mt-2">Jamia Millia Islamia</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 46px; height: 46px;">
+            <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-white">Diploma in GIA</h3>
+            <p class="text-gray-400 mt-2">NCVT ITI Jind</p>
+          </div>
+        </div>
+
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 46px; height: 46px;">
+            <i class="fas fa-graduation-cap text-purple-400 text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold text-white">DOAP Computer Diploma</h3>
+            <p class="text-gray-400 mt-2">Jind</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="section-title text-center">
+        My <span class="gradient-text">Skills</span>
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-map-marked-alt text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">Raster Data Analysis (Remote Sensing)</h3>
+          <p class="text-gray-400 mb-6">ArcGIS Pro, QGIS, Spatial Analysis</p>
+          <div class="skill-bar">
+            <div class="skill-progress skill-animate" data-width="95" style="width: 95%"></div>
+          </div>
+        </div>
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-satellite text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">Vector Data Analysis & Spatial Data Management
+          </h3>
+          <p class="text-gray-400 mb-6">Raster Analysis, LULC Classification</p>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-database text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">Geo-databases & GIS Workflows
+
+          </h3>
+          <p class="text-gray-400 mb-6">Vector Data, Geo-databases</p>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 88%"></div>
+          </div>
+        </div>
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-globe text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">QGIS</h3>
+          <p class="text-gray-400 mb-6">GPS, DGPS, Field Surveys</p>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-mountain text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">Google Earth Analysis
+          </h3>
+          <p class="text-gray-400 mb-6">Analysis & Visualization</p>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 92%"></div>
+          </div>
+        </div>
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-chart-line text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">Field Surveys & Data Collection
+
+          </h3>
+          <p class="text-gray-400 mb-6">Geospatial Analysis & Workflows</p>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 87%"></div>
+          </div>
+        </div>
+        <div class="glass-card p-8">
+          <div class="icon-container mb-6">
+            <i class="fas fa-chart-line text-3xl text-purple-400"></i>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3">ArcGIS Pro (ArcPro)
+
+
+          </h3>
+          <p class="text-gray-400 mb-6">Geospatial Analysis & Workflows</p>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 87%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+        Work <span class="gradient-text">Experience</span>
+      </h2>
+      <div class="glass-card p-12">
+        <div class="flex items-start space-x-6 mb-8">
+          <div class="icon-container" style="width: 72px; height: 72px;">
+            <i class="fas fa-building text-4xl text-purple-400"></i>
+          </div>
+          <div>
+            <h3 class="text-3xl font-bold gradient-text">HARSAC</h3>
+            <p class="text-xl text-purple-300 font-semibold mt-1">Haryana Space Applications Centre</p>
+            <p class="text-gray-400 mt-2">18 Feb 2022 - Present</p>
+          </div>
+        </div>
+        <div class="space-y-4 mt-8">
+          <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-purple-500/10 transition">
+            <i class="fas fa-check-circle text-purple-400 mt-1 text-xl"></i>
+            <p class="text-gray-300 text-lg">SWAMiTAV Yojna - Geospatial mapping and analysis</p>
+          </div>
+          <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-purple-500/10 transition">
+            <i class="fas fa-check-circle text-purple-400 mt-1 text-xl"></i>
+            <p class="text-gray-300 text-lg">Mhari Sadak Project - Road infrastructure mapping</p>
+          </div>
+          <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-purple-500/10 transition">
+            <i class="fas fa-check-circle text-purple-400 mt-1 text-xl"></i>
+            <p class="text-gray-300 text-lg">G-Fasal - Agricultural monitoring system</p>
+          </div>
+          <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-purple-500/10 transition">
+            <i class="fas fa-check-circle text-purple-400 mt-1 text-xl"></i>
+            <p class="text-gray-300 text-lg">Meri Fasal-Mera Byora - Crop data management</p>
+          </div>
+          <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-purple-500/10 transition">
+            <i class="fas fa-check-circle text-purple-400 mt-1 text-xl"></i>
+            <p class="text-gray-300 text-lg">LULC Mahendergarh - Land use land cover analysis</p>
+          </div>
+          <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-purple-500/10 transition">
+            <i class="fas fa-check-circle text-purple-400 mt-1 text-xl"></i>
+            <p class="text-gray-300 text-lg">Partnership with Aaruit Solutions - Industry collaboration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+        Research <span class="gradient-text">Papers</span>
+      </h2>
+      <div class="space-y-6">
+        <div class="glass-card p-8 border-l-4 border-purple-400">
+          <i class="fas fa-file-alt text-purple-400 text-3xl mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-3">Sanitation and Personal Hygiene in Haryana</h3>
+          <p class="text-gray-400 text-lg">Published in Journal of Global Resources (2023)</p>
+        </div>
+        <div class="glass-card p-8 border-l-4 border-purple-500">
+          <i class="fas fa-file-alt text-purple-500 text-3xl mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-3">Geo-spatial Analysis of Water Logging in Hisar</h3>
+          <p class="text-gray-400 text-lg">IJRSS Vol 12 (ISSN 2249-2496)</p>
+        </div>
+        <div class="glass-card p-8 border-l-4 border-purple-400">
+          <i class="fas fa-file-alt text-purple-400 text-3xl mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-3">Sanitation, Conservation & Community Participation</h3>
+          <p class="text-gray-400 text-lg">Religious Ponds (Mahendergarh)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- certificate Section -->
+  <section id="research" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+        Acchiever <span class="gradient-text">certificate</span>
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <!-- Certificate 1 -->
+        <div class="glass-card p-2 overflow-hidden group cursor-pointer">
+          <div
+            class="aspect-[3/4] bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-xl overflow-hidden mb-4">
+            <img src="advananced.jpg"
+              alt="Certificate 1"
+              class="w-full h-full group-hover:scale-110 transition-transform duration-500">
+          </div>
+          <h3 class="font-semibold text-lg mb-1">Advanced Geospatial Technologies</h3>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="glass-card p-2 overflow-hidden group cursor-pointer">
+          <div
+            class="aspect-[3/4] bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-xl overflow-hidden mb-4">
+            <img src="“Geo-spatial Applications for Forest Ecosystem Analysis”_page-0001.jpg"
+              alt="Certificate 2"
+              class="w-full h-full group-hover:scale-110 transition-transform duration-500">
+          </div>
+          <h3 class="font-semibold text-lg mb-1">Forest Ecosystem Analysis</h3>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="glass-card p-2 overflow-hidden group cursor-pointer">
+          <div
+            class="aspect-[3/4] bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-xl overflow-hidden mb-4">
+            <img src="“Hyperspectral And Microwave Remote Sensing Techniques For Geological Studies_page-0001.jpg"
+              alt="Certificate 3"
+              class="w-full h-full group-hover:scale-110 transition-transform duration-500">
+          </div>
+          <h3 class="font-semibold text-lg mb-1">Hyperspectral & Microwave RS</h3>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="glass-card p-2 overflow-hidden group cursor-pointer">
+          <div
+            class="aspect-[3/4] bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-xl overflow-hidden mb-4">
+            <img src="“RS & GIS Applications in Natural Resource Management_page-0001.jpg"
+              alt="Certificate 4"
+              class="w-full h-full group-hover:scale-110 transition-transform duration-500">
+          </div>
+          <h3 class="font-semibold text-lg mb-1">Natural Resource Management</h3>
+        </div>
+
+         <!-- Certificate 5 -->
+        <div class="glass-card p-2 overflow-hidden group cursor-pointer">
+          <div
+            class="aspect-[3/4] bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-xl overflow-hidden mb-4">
+            <img src="“Satellite Remote Sensing of Atmosphere”_page-0001.jpg"
+              alt="Certificate 5"
+              class="w-full h-full group-hover:scale-110 transition-transform duration-500">
+          </div>
+          <h3 class="font-semibold text-lg mb-1">“Satellite Remote Sensing of Atmosphere</h3>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="glass-card p-2 overflow-hidden group cursor-pointer">
+          <div
+            class="aspect-[3/4] bg-gradient-to-br from-purple-500/20 to-purple-700/20 rounded-xl overflow-hidden mb-4">
+            <img src="ArcGIS Online Basics_Certificate_09262023_page-0001.jpg"
+              alt="Certificate 6"
+              class="w-full h-full group-hover:scale-110 transition-transform duration-500">
+          </div>
+          <h3 class="font-semibold text-lg mb-1">ArcGIS Online Online Basics Certificate</h3>
+        </div>
+      </div>
+
+      <!-- View More Button -->
+      <div class="text-center">
+        <a href="certificates.html" class="btn-primary inline-flex items-center gap-3">
+          View More Certificates
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <!-- Experience Section -->
+  <section id="experience" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+        My  <span class="gradient-text">Hobbies</span>
+      </h2>
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    <!-- Hobby 1 -->
+    <div class="flex flex-col bg-[#120A1F] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="https://t4.ftcdn.net/jpg/16/05/18/49/240_F_1605184969_HUZKe12GTArB9i6WZph2JVNQU0sTl7pa.jpg" alt="Reading" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-white font-semibold text-center">Reading Geography & Research Articles</h3>
+      </div>
+    </div>
+
+    <!-- Hobby 2 -->
+    <div class="flex flex-col bg-[#120A1F] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="https://t3.ftcdn.net/jpg/07/48/32/68/240_F_748326838_5AUpvvi3UNvN4pj3q6HcTJ8zPRxNpqso.jpg" alt="Field Survey" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-white font-semibold text-center">Field Surveys</h3>
+      </div>
+    </div>
+
+    <!-- Hobby 3 -->
+    <div class="flex flex-col bg-[#120A1F] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="https://t4.ftcdn.net/jpg/16/48/85/49/240_F_1648854977_r8ZGdwTNHibsbe6h5ExdhOSD5Y0lImCH.jpg" alt="Mapping" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-white font-semibold text-center">Mapping & Geospatial Analysis</h3>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Optional: Add next row for remaining hobbies -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+    
+    <!-- Hobby 4 -->
+    <div class="flex flex-col bg-[#120A1F] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="https://t4.ftcdn.net/jpg/02/80/82/81/240_F_280828158_ZZ2W8atYMHiSkLoDzxgDHNhdmXJ31jCR.jpg" alt="Traveling" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-white font-semibold text-center">Traveling</h3>
+      </div>
+    </div>
+
+    <!-- Hobby 5 -->
+    <div class="flex flex-col bg-[#120A1F] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+      <img src="https://t4.ftcdn.net/jpg/02/82/93/53/240_F_282935329_uc7upEQrMvoSnuC6Rz9DpEnvKtbbRKiC.jpg" alt="Photography" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-white font-semibold text-center">Photography</h3>
+      </div>
+    </div>
+
+    <!-- Optional empty column for alignment -->
+    <div></div>
+
+  </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-32 px-4 section-reveal">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="section-title text-center">
+        Get In <span class="gradient-text">Touch</span>
+      </h2>
+      <div class="glass-card p-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="space-y-8">
+            <div class="flex items-center space-x-5">
+              <div class="contact-icon">
+                <i class="fas fa-phone text-purple-400 text-2xl"></i>
+              </div>
+              <div>
+                <p class="text-gray-400 text-sm mb-1">Mobile</p>
+                <p class="text-xl font-semibold">8607145615</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-5">
+              <div class="contact-icon">
+                <i class="fas fa-envelope text-purple-400 text-2xl"></i>
+              </div>
+              <div>
+                <p class="text-gray-400 text-sm mb-1">Email</p>
+                <p class="text-xl font-semibold break-all">rakeshmor86071@gmail.com</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-5">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt text-purple-400 text-2xl"></i>
+              </div>
+              <div>
+                <p class="text-gray-400 text-sm mb-1">Location</p>
+                <p class="text-xl font-semibold">Village Kuchrana Khurd, Jind</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-center">
+            <div class="text-center">
+              <i class="fas fa-paper-plane text-8xl text-purple-400 mb-6 animate-float"></i>
+              <p class="text-gray-300 text-xl leading-relaxed">Let's collaborate on your next geospatial project!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 px-4 border-t border-purple-500/20">
+    <div class="container mx-auto text-center">
+      <p class="text-gray-400 text-lg">© 2024 Rakesh. All rights reserved.</p>
+      <p class="text-sm text-gray-500 mt-3">GIS Specialist | Research Scholar | Geospatial Analyst</p>
+    </div>
+  </footer>
+
+  <script src="script.js">
+  </script>
+
+</body>
+
+</html>
